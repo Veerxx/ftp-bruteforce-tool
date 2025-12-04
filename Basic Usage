@@ -1,0 +1,8 @@
+# Basic FTP brute force
+python3 ftpbrute.py -t 192.168.1.100 -U users.txt -P passwords.txt
+
+# FTPS with more threads
+python3 ftpbrute.py -t ftp.target.com --ftps -U users.txt -P passwords.txt -T 30
+
+# SFTP on custom port
+python3 ftpbrute.py -t target.com --sftp -p 2222 -U users.txt -P passwords.txt
