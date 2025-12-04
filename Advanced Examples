@@ -1,0 +1,11 @@
+# Rate limited scan (10 requests/second)
+python3 ftpbrute.py -t 192.168.1.100 -U users.txt -P passwords.txt --rate-limit 10
+
+# Encrypted results with custom timeout
+python3 ftpbrute.py -t target.com -U users.txt -P passwords.txt --encrypt --timeout 15
+
+# Resume interrupted scan
+python3 ftpbrute.py -t 192.168.1.100 --resume
+
+# Verbose mode for debugging
+python3 ftpbrute.py -t target.com -U users.txt -P passwords.txt -v
