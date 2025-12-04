@@ -1,0 +1,15 @@
+admin
+root
+ftp
+user
+test
+guest
+administrator
+anonymous
+web
+mysql
+oracle
+postgres
+backup
+info
+support
