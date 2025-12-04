@@ -1,0 +1,12 @@
+# Required for SFTP support
+paramiko>=3.0.0
+
+# Optional but recommended
+cryptography>=41.0.0
+colorama>=0.4.6
+
+# For rich console output (optional)
+rich>=13.0.0
+
+# Python standard library dependencies (no install needed)
+# ftplib, socket, ssl, threading, etc.
