@@ -1,0 +1,17 @@
+python3 ftpbrute.py --help
+
+Argument	Description	Default
+-t, --target	Target hostname or IP address	Required
+-p, --port	Port number	21
+-U, --users	Username wordlist file	Required (unless resuming)
+-P, --passwords	Password wordlist file	Required (unless resuming)
+-T, --threads	Number of concurrent threads	20
+--ftp	Use standard FTP protocol	Default
+--ftps	Use FTPS (SSL/TLS)	
+--ftpes	Use FTPES (Explicit SSL)	
+--sftp	Use SFTP protocol	
+--timeout	Connection timeout in seconds	8
+--rate-limit	Max requests per second	0 (unlimited)
+--resume	Resume previous scan session	
+--encrypt	Encrypt results with random key	
+-v, --verbose	Enable verbose output	
